@@ -1,0 +1,77 @@
+
+
+
+
+
+.p-menubar {
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of other content */
+    background-color: rgba(83, 81, 81); /* Maintain the background color */
+    direction: rtl;
+    justify-content: center;
+    border: none;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    height: 50px;
+    
+}
+
+/* Make the navbar fixed (alternative option) */
+/* .p-menubar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(83, 81, 81, 0.9);
+} */
+
+/* Menu items */
+.p-menubar .p-menuitem {
+    text-align: center;
+}
+
+/* Button Styling */
+.p-menubar .p-menuitem-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    height: 100%;
+    gap: 40px;
+    padding: 5px 15px;
+    transition: background-color 0.3s, border-color 0.3s;
+    background-color: rgba(83, 81, 81, 0.9);
+}
+
+/* Hover Effect */
+.p-menubar .p-menuitem-link:hover {
+    background-color: rgb(213, 1, 118);
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+
+/* Icon Styling */
+.p-menuitem-icon {
+    color: rgb(213, 1, 118) !important;
+    margin-left: 10px;
+}
+.pi.pi-star-fill::before{
+color:white;
+}
+/* Text Color */
+.p-menuitem-text {
+    color: rgb(255, 255, 255) !important;
+    margin-left: 10px;
+}
+.p-menubar .p-menubar-root-list{
+    background-color: #413e40;
+}
+#bar{
+    background-color: aliceblue;
+}
